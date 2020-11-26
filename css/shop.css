@@ -7,7 +7,7 @@ body {
 #SHOP {
     width: 90%;
     height: 1000px;
-    margin: 5px auto;
+    margin: 5px auto 50px auto;
     display: grid;
     grid-template-columns: 200px 1fr;
     grid-template-rows: 45px 1fr;

@@ -66,8 +66,7 @@ nav {
 footer {
     width: 100vw;
     height: 350px;
-    background-color: #ffffff;
-
+    /*background-color: #efefef;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -79,15 +78,114 @@ footer {
     height: 200px;
     display: flex;
     flex-direction: column;
-    margin: auto 5px auto 5px;
+    margin: auto 2px auto 2px;
 }
+
+
 
 .footer-navlinks> li {
     list-style-type: none;
+    margin: 2px auto;
+}
+
+.footer-navlinks> label {
+    font-weight: bold;
+    font-size: 20px;
+    color: #222222;
+    text-align: center;
+    margin: 0 0 5px 0;
 }
 
 .footer-navlinks> li> a {
     text-decoration: none;
     color: #222222;
-    font-size: 18px;
+    font-size: 16px;
+    text-align: left;
+}
+.footer-navlinks> li> a:hover {
+    cursor: pointer;
+    color: purple;
+}
+
+#STAYCONNECTEDCONTAINER {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0 auto 30px;
+    /*background-color: black;*/
+    width: 500px;
+    min-height: 100px;
+}
+
+#stayconnect-label {
+    color: #000000;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+#STAYCONNECTEDCONTAINER> p {
+    color: #333333;
+    font-size: 16px;
+}
+
+#STAYCONNECTEDCONTAINER> :nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    width: 450px;
+    background-color: #888888;
+    padding: 5px;
+}
+
+#STAYCONNECTEDCONTAINER> :nth-child(3)> input {
+    font-size: 16px;
+    text-indent: 5px;
+    border: 1px solid orange;
+    width: 75%;
+}::-webkit-input-placeholder {
+    text-indent: 10px;
+    font-size: 14px;
+    color:#777777;
+}
+
+#STAYCONNECTEDCONTAINER> :nth-child(3)> button {
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    width: 25%;
+}
+
+
+#STAYCONNECTEDCONTAINER>:nth-child(4) {
+    min-height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 10px auto;
+    min-width: 100px;
+}
+
+#STAYCONNECTEDCONTAINER>:nth-child(4)> div {
+    border: 0;
+    border-radius: 0;
+    /*background-color: lightgray;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px 0 2px;
+    width: 45px;
+    height: 45px;
+}
+
+#STAYCONNECTEDCONTAINER>:nth-child(4)> div> img {
+    object-fit: contain;
+    object-position: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
