@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+#HOME {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#HOMECAROUSELCONTAINER {
+    width: 80%;
+    height: 80%;
+    margin: auto 0 auto auto;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#HOMECAROUSEL {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden; 
+    width: 100%;
+    height: 100%;
+}
+
+#SIDEBARRIGHT {
+    width: 10%;
+    height: 100%;
+    /*background-color: whitesmoke;*/
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+    z-index: -1;
+}
+
+#PROMOTIONCAROUSELCONTAINER {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px auto;
+}
+.promotioncarouselcontainer {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    /*background-color: whitesmoke;*/
+    color: #454545;
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 2px solid gray;
+    line-height: 80px;
+}
+
+#SOCIALNAVCONTAINER {
+    width: 60px;
+    height: 180px;
+    margin: 25px auto auto auto;
+    display: flex;
+    flex-direction: column;
+}
+.social-navlink {
+    width: 45px;
+    height: 45px;
+    border: 0;
+    border-radius: 100%;
+    background-color: lightgray;
+    margin: auto;
+}
+
+@keyframes promotional-animation {
+    0%, 30% {
+        transform: translateX(0%);
+    }
+    45%, 60% {
+        transform: translateX(-100%);
+    }
+    75%, 100% {
+        transform: translateX(-200%);
+    }
+}
+.homecarousel {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /*border: 10px solid blue;*/
+    margin: auto;
+    animation-name: promotional-animation;
+    animation-delay: 1s;
+    animation-duration: 15s;
+    animation-timing-function: cubic-bezier(0,0,1,1);
+    animation-iteration-count: infinite;
+}
+
+.home-promotion-container {
+    width: 95%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    /*background-color: lightgray;*/
+    /*background-image: linear-gradient(to bottom, white 20%, lightblue 20%, lightblue 100%);*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-promotion-container> img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    object-position: center;
+    /*background-color: darkred;*/
+    margin: 0 10px 0 auto;
+}
+
+.home-promotion-container> section {
+    width: 45%;
+    height: 100%;
+    /*background-color: red;*/
+    margin: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#home-promotion-preview-container {
+    width: 500px;
+    height: 25%;
+    overflow: hidden;
+    margin: 350px 0 0 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+
+.home-promotion-preview {
+    /*min-width: 100%;*/
+    height: 90%;
+    border: 4px solid #333333;
+    object-fit: contain;
+    object-position: center;
+    margin: auto 10px;
+}
+
+.home-promotion-preview:hover {
+    cursor: pointer;
+    border: 4px solid orangered;
+   
+}
+
+.home-promotion-titles {
+    width: 60%;
+    font-size: 45px;
+    overflow: hidden;
+    color: #222222;
+    margin: 50px auto 0 0;
+}
+.home-promotion-brands {
+    width: 60%;
+    font-size: 25px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    color: darkblue;
+    margin: 0 auto 0 0;
+}
+.home-promotion-details {
+    width: 60%;
+    overflow: hidden;
+    color: #333333;
+    margin: 0 auto 0 0;
+    font-size: 18px;
+}
+.home-promotion-shop-buttons {
+    width: 40%;
+    height: 60px;
+    background-color: #333333;
+    color: white;
+    overflow: hidden;
+    margin: auto 0 0 auto;
+    letter-spacing: 2px;
+    font-size: 21px;
+    border: 0;
+    cursor: pointer;
+}
+
+/*this section is applies the style to Beats Promotions */
+#BeatsPromo {
+    width: 100vw;
+    height: 600px;
+    background-color: white;
+    background-image: url("../api/images/promotion 1.png"), url("../api/images/promotion 3.png"), linear-gradient(to right, rgb(100, 100, 100, 0.25), rgb(100, 100, 100, 0.25) 100%), linear-gradient(to right, rgb(255, 255, 255, 0.85), rgb(255, 255, 255, 0.85) 100%), url("../api/images/beats bg 1.jpg");
+    background-repeat: no-repeat;
+    background-size: 860px 585px, 350px 350px, 500px 350px, cover, cover;
+    background-position: right center, left center, 100px 150px, center, left center;
+    display: flex;
+    flex-direction: row;
+}
+
+#BeatsPromo> section {
+    width: 600px;
+    height: 400px;
+    margin: 100px auto auto 350px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
+
+#BeatsPromo> section> h1 {
+    font-size: 45px;
+    height: 100px;
+    font-weight: bolder;
+    color: #222222;
+    /*overflow: hidden;*/
+    margin: 0;
+}
+#BeatsPromo> section> h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    /*overflow: hidden;*/
+    margin: 0;
+}
+
+#BeatsPromo> section> span {
+    font-weight: bold;
+}
+
+#BeatsPromo> section> p {
+    color: #444444;
+    margin: 0;
+    font-size: 21px;
+    width: 70%;
+}
+
+#BeatsPromo> section> button {
+    border: 2px solid red;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.75);
+    font-size: 16px;
+    margin: auto auto 5px auto;
+    height: 60px;
+    width: 200px;
+}
+
+#BeatsPromo> section> button:hover {
+    cursor: pointer;
+    box-shadow: 8px 4px 12px rgb(30, 30, 30, 0.85);
+    transition-duration: 0.6s;
+}
+
+#BOSE-PROMOTIONS {
+    width: 100vw;
+    height: 1200px;
+    background-color: #111111;
+    background-image: url("../api/images/android phone a.png"), url("../api/images/beats bg 2.png");
+    background-size: 350px 500px, 500px 500px;
+    background-position: 100px 250px, center;
+    background-repeat: no-repeat;
+}
