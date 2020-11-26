@@ -1,16 +1,56 @@
 [
     {
-        "id": "",
-        "type": "",
-        "model": "",
-        "brand": "",
-        "images": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "price": "",
-        "details": ""
-    }
+        "id": "SH1",
+        "type": "Over the Ear",
+        "model": "HD 560S",
+        "brand": "SENNHEISER",
+        "images": "../api/headphones/SENNHEISER HD 560S.jpg",
+        "price": "199.95",
+        "details": "With linear acoustics tailored to extended listening sessions and smooth, gratifying bass performance, the HD 560S was crafted for the analytical audio enthusiast"
+    },
+    {
+        "id": "SH2",
+        "type": "Over the Ear",
+        "model": "HD 800 S",
+        "brand": "SENNHEISER",
+        "images": "../api/headphones/SENNHEISER HD 800 S.jpg",
+        "price": "1695.95",
+        "details": "With linear acoustics tailored to extended listening sessions and smooth, gratifying bass performance, the HD 560S was crafted for the analytical audio enthusiast"
+    },
+    {
+        "id": "SH3",
+        "type": "Over the Ear",
+        "model": "HD 450 BR",
+        "brand": "SENNHEISER",
+        "images": "../api/headphones/SENNHEISER HD 450 BT.jpg",
+        "price": "99.95",
+        "details": "With linear acoustics tailored to extended listening sessions and smooth, gratifying bass performance, the HD 560S was crafted for the analytical audio enthusiast"
+    },
+    {
+        "id": "SH4",
+        "type": "Over the Ear",
+        "model": "MOMEMTUM 3 WIRELESS",
+        "brand": "SENNHEISER",
+        "images": "../api/headphones/SENNHEISER MOMENTUM 3 WIRELESS.jpg",
+        "price": "349.95",
+        "details": "With linear acoustics tailored to extended listening sessions and smooth, gratifying bass performance, the HD 560S was crafted for the analytical audio enthusiast"
+    },
+    {
+        "id": "SH5",
+        "type": "Over the Ear",
+        "model": "HD 820",
+        "brand": "SENNHEISER",
+        "images": "../api/headphones/SENNHEISER HD 820.jpg",
+        "price": "2399.95",
+        "details": "With linear acoustics tailored to extended listening sessions and smooth, gratifying bass performance, the HD 560S was crafted for the analytical audio enthusiast"
+    },
+    {
+        "id": "SH6",
+        "type": "Over the Ear",
+        "model": "HD 559",
+        "brand": "SENNHEISER",
+        "images": "../api/headphones/SENNHEISER HD 559.jpg",
+        "price": "99.95",
+        "details": "With linear acoustics tailored to extended listening sessions and smooth, gratifying bass performance, the HD 560S was crafted for the analytical audio enthusiast"
+    }      
 ]
