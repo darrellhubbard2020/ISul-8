@@ -17,7 +17,7 @@ async function HOMECAROUSEL () {
                     <section>
                         <h1 class="home-promotion-titles">${product.name}</h1>
                         <h3 class="home-promotion-brands">${product.brand}</h3>
-                        <p class="home-promotion-details">${product.details}</p>
+                        <p class="home-promotion-details" style="color: ${product.color}">${product.details}</p>
                         <button type="" class="home-promotion-shop-buttons">SHOP NOW</button>
                     </section>
                 </div>

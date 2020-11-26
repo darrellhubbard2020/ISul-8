@@ -4,20 +4,23 @@
         "name": " SONY MDR1RBT",
         "brand": "SONY",
         "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "slideBackgroundColor": "lightgray"
+        "slideBackgroundColor": "lightgray",
+        "color": "#111111"
     },
     {
         "image": "api/images/sample c.png",
         "name": "HD 820",
         "brand": "SENNHEISER",
         "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "slideBackgroundColor": "lightblue"
+        "slideBackgroundColor": "lightblue",
+        "color": "#333333"
     },
     {
         "image": "api/images/sample b.png",
         "name": "BEATS HEADPHONES",
         "brand": "BEATS",
         "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "slideBackgroundColor": "pink"
+        "slideBackgroundColor": "pink",
+        "color": "darkblue"
     }   
 ]
