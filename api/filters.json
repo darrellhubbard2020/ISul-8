@@ -1,0 +1,14 @@
+[
+    {
+        "label": "BRAND",
+        "filterBy": ["SENNHEISER", "BOSE", "BEATS"]
+    },
+    {
+        "label": "PRICE",
+        "filterBy": [{"low": 0, "max": 100}, {"low": 100, "max": 200}, {"low": 200, "max": 500}, {"low": 500, "max": "1000+"}]
+    },
+    {
+        "label": "CATEGORY",
+        "filterBy": ["OVER THE EAR", "IN EAR", "WIRELESS", "WIRED", "NOISE CANCELLING"]
+    }
+]
